@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <style>
+        /* Estilos generales */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://images.unsplash.com/photo-1518655048521-f130df041f66');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #333;
+        }
+        
+        /* Contenedor principal */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Header */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo {
+            height: 60px;
+            margin-right: 20px;
+        }
+        
+        /* Contenido principal */
+        .main-content {
+            flex: 1;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .video-link {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            background-color: #e74c3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        .video-link:hover {
+            background-color: #c0392b;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        .footer-info {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <img src="images.jpeg" alt="Logo del sitio" class="logo">
+            <h1>Mi Sitio Web</h1>
+        </header>
+        
+        <!-- Contenido principal -->
+        <div class="main-content">
+            <h2>Bienvenido a nuestro sitio</h2>
+            <p>Disfruta de nuestro contenido exclusivo</p>
+            
+            <a href="https://www.youtube.com/watch?v=Ns2LZhnoB1I" class="video-link" target="_blank">
+                Ver video destacado
+            </a>
+        </div>
+        
+        <!-- Footer -->
+        <footer>
+            <div class="footer-info">Nombre del curso:Conceptualización de servicios en la nube </div>
+            <div class="footer-info">Estudiante:Erik Giovanni Romo Macias</div>
+            <div class="footer-info">Código: 218216264 </div>
+            <div class="footer-info">Contacto: <a href="erik.romo@alumnos.udg.mx" style="color: #3498db;">erik.romo@alumnos.udg.mx </a></div>
+        </footer>
+    </div>
+</body>
+</html>
